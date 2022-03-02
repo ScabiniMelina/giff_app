@@ -1,0 +1,29 @@
+h1 {
+  font-size: 2em;
+  padding: 0.5em;
+}
+
+h4 {
+  font-size: 1em;
+  padding: 10px;
+}
+
+.gifCard {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 20px auto;
+  padding-bottom: 16px;
+  background-color: rgb(35, 111, 177);
+}
+
+.gifCard img {
+  margin: auto 0;
+  object-fit: contain;
+  height: 60%;
+  width: 60%;
+}
